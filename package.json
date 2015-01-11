@@ -1,5 +1,5 @@
 {
-  "name": "jquery.caret",
+  "name": "caret.js",
   "version": "0.2.1",
   "description": "Get caret position and offset from inputor",
   "main": "index.js",
@@ -23,6 +23,12 @@
     "offset",
     "position"
   ],
+  "spm": {
+    "main": "dist/jquery.caret.js",
+    "dependencies": {
+      "jquery": "1.9.1"
+    }
+  },
   "author": "Harold.luo <chord.luo@gmail.com>",
   "license": "MIT"
 }

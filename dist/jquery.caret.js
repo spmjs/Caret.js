@@ -19,7 +19,7 @@
     if (typeof define === 'function' && define.amd) {
       return define(['jquery'], factory);
     } else {
-      return factory(window.jQuery);
+      return factory(require('jquery'));
     }
   })(function($) {
     "use strict";
